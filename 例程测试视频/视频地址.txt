@@ -1,0 +1,1 @@
+由于视频太大，所以YMCV例程的测试视频放置在新的仓库中，视频仓库地址：https://api.gitee.com/yao_mi/YMCV-TestVideo

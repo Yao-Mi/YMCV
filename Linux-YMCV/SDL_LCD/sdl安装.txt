@@ -1,0 +1,13 @@
+SDL 库提供了 C 和 C++ 两种语言的 API。使用 SDL 库可以方便地创建窗口和渲染器，并在窗口中绘制 2D 图形。
+安装 SDL2 库可以使用以下命令：
+sudo apt-get install libsdl2-dev
+
+安装 SDL2_ttf字体库
+sudo apt-get install libsdl2-ttf-dev
+
+安装一个支持中文的ttf字体（如文泉驿正黑），执行下面的
+sudo apt-get install fonts-wqy-zenhei 
+
+安装完后，其路径就在路径usr/share/fonts/truetype/下面了
+
+

@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "C/C++: gcc 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/out/${fileBasenameNoExtension}",//需要运行、调试的文件。要和tasks.json中-o后面的目录一样
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/out",//调试程序时的工作目录 。即对应工程目录下的out文件夹
+            "environment": [ //针对调试的程序，要添加到环境中的环境变量
+                {
+                    "name":  "LD_LIBRARY_PATH", //运行库目录
+                    "value": "/usr/lib",
+                }
+            ],
+            "externalConsole": true,//调试时是否显示外置控制台窗口（大黑框），一般设置为true显示控制台
+            "MIMode": "gdb",// VSCode要使用的调试工具or指示VS代码将连接到的调试器
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: gcc 生成活动文件",// 调试会话开始前执行的任务，一般为编译程序，即tasks.json中的任务名字
+            "miDebuggerPath": "/usr/bin/gdb" // 调试器的路径
+        }
+    ],
+    "version": "2.0.0"
+}
+

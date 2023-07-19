@@ -1,0 +1,29 @@
+YMCV_PubData         ：全局数据公共区
+YMCV_PixConv         ：像素格式转换
+YMCV_FormCge         ：图像格式转换
+YMCV_ChannelCal      ：图像通道变换
+YMCV_GeomCal         ：图像几何变换
+YMCV_SpaceCal        ：图像空间域变换
+YMCV_FreqCal         ：图像频域变换
+YMCV_SegnmCal        ：图像分割
+YMCV_FeatCal         ：图像特征计算
+YMCV_MatchingCal     ：图像目标匹配
+YMCV_MergeCal        ：图像融合
+YMCV_Special_Effect  ：图像特效
+
+YMCV_BinaryCal       ：二值图运算
+YMCV_HistCal         ：图像直方图
+YMCV_AreaFillCal     ：图像区域填充
+YMCV_Padding         ：图像边框填充
+YMCV_EdgeCal         ：边缘检测
+YMCV_FastMath        ：数学运算
+YMCV_InnerMath       ：随机数运算
+YMCV_DecisionTree_ID3：ID3决策树
+YMCV_GMM             ：高斯混合模型
+YMCV_Graph           ：图割
+YMCV_KmeansPlusPlus  ：Kmeans++
+YMCV_BasicObjCal     ：基础的直线，矩形，三角合并
+YMCV_IntegralCal     ：积分图
+
+
+

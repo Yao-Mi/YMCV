@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YMCV", "EGE_LCD\YMCV.vcxproj", "{82AF63BB-1139-4C49-9594-3DD95A7CE482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82AF63BB-1139-4C49-9594-3DD95A7CE482}.Debug|x64.ActiveCfg = Debug|x64
+		{82AF63BB-1139-4C49-9594-3DD95A7CE482}.Debug|x64.Build.0 = Debug|x64
+		{82AF63BB-1139-4C49-9594-3DD95A7CE482}.Debug|x86.ActiveCfg = Debug|Win32
+		{82AF63BB-1139-4C49-9594-3DD95A7CE482}.Debug|x86.Build.0 = Debug|Win32
+		{82AF63BB-1139-4C49-9594-3DD95A7CE482}.Release|x64.ActiveCfg = Release|x64
+		{82AF63BB-1139-4C49-9594-3DD95A7CE482}.Release|x64.Build.0 = Release|x64
+		{82AF63BB-1139-4C49-9594-3DD95A7CE482}.Release|x86.ActiveCfg = Release|Win32
+		{82AF63BB-1139-4C49-9594-3DD95A7CE482}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC8943A2-4EA0-42C0-BA6A-6CAAD7F2FA56}
+	EndGlobalSection
+EndGlobal

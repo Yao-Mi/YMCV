@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EGE_LCD">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="CONFIG">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{2cef57b6-21f1-428d-acaa-1488428f7feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YMCV">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="YMCV\OPOBJ">
+      <UniqueIdentifier>{391101cb-6e7a-4c1a-a59c-9510693f3f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YMCV\CORE">
+      <UniqueIdentifier>{af34ebb1-308a-4831-8d9f-55f363165c6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YMCV\DEBUG">
+      <UniqueIdentifier>{77d51c83-ae1b-4e23-a412-6b7c5b494c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YMCV\CONFIG">
+      <UniqueIdentifier>{c63f2002-583e-4cb9-acca-2f3a94707dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageSource">
+      <UniqueIdentifier>{e9cdb663-2ddb-4c8e-8a35-e8f04f08dd17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\0基础环境测试">
+      <UniqueIdentifier>{d03c266b-9635-4762-99d9-25d40eeac09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\1基础图像操作">
+      <UniqueIdentifier>{8e48e10b-7160-4055-b446-34158123e4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\2图像通道渲染">
+      <UniqueIdentifier>{3f94e606-deb4-4eac-9d6e-4e6e8cd8a135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\3图像直方图">
+      <UniqueIdentifier>{1c9f719b-4009-4fbf-808c-92448574d327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\4图像空域渲染">
+      <UniqueIdentifier>{307f4c72-d078-4ef8-8d28-2dff3eca3bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\5图像频域渲染">
+      <UniqueIdentifier>{04d8d750-3edb-4b92-b24b-2093347bf046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\6图像几何变换">
+      <UniqueIdentifier>{d048f07f-75f6-4313-8ad2-7863de61162a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\8图像特征提取">
+      <UniqueIdentifier>{21562681-b2a2-416d-975d-c25d8534c6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YMCV\CORE\HeadFile">
+      <UniqueIdentifier>{283ab136-4e78-460a-b820-a360700dfa4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\9图像目标匹配">
+      <UniqueIdentifier>{6089ed9d-7cf7-4521-9b0f-5999d0733838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\7图像分割">
+      <UniqueIdentifier>{6f74a7a1-76d6-4747-828a-396d0a6c4042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\7图像分割\7-1二值化">
+      <UniqueIdentifier>{34e17452-cc31-4457-955c-593261b54512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\7图像分割\7-2边缘检测">
+      <UniqueIdentifier>{62a10da8-fb3f-4a3a-af54-a2ef41b490fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\7图像分割\7-3区域分割">
+      <UniqueIdentifier>{1488d502-5cf2-4da9-9f5d-1de9a2a03df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YMCV\IOFILE">
+      <UniqueIdentifier>{339b25d4-247d-4881-aaca-0449d92aac31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YMCV\Code">
+      <UniqueIdentifier>{952ef0c7-f47a-4d61-95d7-c04b3bbbde3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YMCV\QRCODE">
+      <UniqueIdentifier>{58d121c6-b244-4f47-b66c-7d8bae995b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\11、数据处理&amp;机器学习">
+      <UniqueIdentifier>{7794b0c5-8074-4d43-82ed-e3d0c513e365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\10、修复&amp;特效">
+      <UniqueIdentifier>{8ea1d3a8-c41e-41e0-8b6c-37a11d78d18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\12、条码&amp;二维码识别">
+      <UniqueIdentifier>{b388d3ad-2280-4d81-b549-3df1f94b0203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\13、其他项目应用">
+      <UniqueIdentifier>{44ee29ec-bfa8-4ef8-99dc-8442ea525195}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\EGE_LCD\EGE_LCD.h">
+      <Filter>EGE_LCD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CONFIG\Pubtype.h">
+      <Filter>CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\OPOBJ\YMCV_Free.h">
+      <Filter>YMCV\OPOBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\OPOBJ\YMCV_OBJ.h">
+      <Filter>YMCV\OPOBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\OPOBJ\YMCV_Creat.h">
+      <Filter>YMCV\OPOBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CONFIG\YMCV_PubDefine.h">
+      <Filter>YMCV\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CONFIG\YMCV_PubType.h">
+      <Filter>YMCV\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CONFIG\YMCV_Mem.h">
+      <Filter>YMCV\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageSource\imageSource.h">
+      <Filter>ImageSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\DEBUG\YMCV_Debug.h">
+      <Filter>YMCV\DEBUG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_ChannelCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_FormCge.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_HistCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_IntegralCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_Padding.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_PixConv.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_SpaceCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_GeomCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_FastMath.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_FreqCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_Basic.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_BinaryCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_EdgeCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_Graph.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_MergeCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_KmeansPlusPlus.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_GMM.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_AreaFillCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_SegnmCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_FeatCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_MatchingCal.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_DecisionTree_ID3.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_Special_Effect.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_InnerMath.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\Code\tjpgd.h">
+      <Filter>YMCV\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\IOFILE\YMCV_IOFile.h">
+      <Filter>YMCV\IOFILE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\Code\gifdec.h">
+      <Filter>YMCV\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\Code\avilib.h">
+      <Filter>YMCV\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\QRCODE\YMCV_Codes.h">
+      <Filter>YMCV\QRCODE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\YMCV\CORE\YMCV_PubData.h">
+      <Filter>YMCV\CORE\HeadFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\EGE_LCD\EGE_LCD.cpp">
+      <Filter>EGE_LCD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\OPOBJ\YMCV_Creat.c">
+      <Filter>YMCV\OPOBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\OPOBJ\YMCV_Free.c">
+      <Filter>YMCV\OPOBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\CONFIG\YMCV_Mem.c">
+      <Filter>YMCV\CONFIG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\linglong00_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\linglong01_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\linglong_00.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\linglong01.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\linglong02.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\linglong02_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\DEBUG\YMCV_Debug.c">
+      <Filter>YMCV\DEBUG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\mm_00.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\mm00_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\mm_01.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\mm_01_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\0、EGE_Test.c">
+      <Filter>Demo\0基础环境测试</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\1.1、ImageShowTest.c">
+      <Filter>Demo\1基础图像操作</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\1.2、ImageCopyTest.c">
+      <Filter>Demo\1基础图像操作</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.1、ChannelGray2binTest.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.2、ChannelGrayExposeAndColorTo.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.3、ChannelGrayInversAndBright.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.4、ChannelGrayContractAndLiner.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.5、ChannelGrayLogAndExp.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.6、ChannelGrayGamaAndScurve.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.7、ChannelGrayCstomAndHeatPalette.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.8、ChannelRgb2binTest.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.9、ChannelRgbExposeAndColor.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.10、ChannelRgbInversAndBright.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.11、ChannelRgbContractAndLiner.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.12、ChannelRgbLogAndExp.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.13、ChannelRgbGamaAndScurve.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.14、ChannelRgbCstom.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.15、ChannelRgbInversAndBright_1Param.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.16、ChannelRgbContractAndLiner_1Param.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.17、ChannelRgbLogAndExp_1Param.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\2.18、ChannelRgbGamaAndScurve_1Param.c">
+      <Filter>Demo\2图像通道渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\3.1、HistGrayHistEq.c">
+      <Filter>Demo\3图像直方图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\3.3、HistGrayHistMapTo.c">
+      <Filter>Demo\3图像直方图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\3.4、HistRgbHistEq.c">
+      <Filter>Demo\3图像直方图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\3.5、HistRgbHistMapTo.c">
+      <Filter>Demo\3图像直方图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.4、SpaceGrayLocalMSEFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.1、SpaceGrayGaussFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.2、SpaceGrayLogFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.3、SpaceGrayBilateralFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.7、SpaceGrayModeAndMidPointFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.8、SpaceGrayMeanShiftFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.5、SpaceGrayAverAndMedFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.10、SpaceGrayGuideFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\wutu_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.6、SpaceGrayMinAndMaxFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\10.1、GrayRemovalFog.c">
+      <Filter>Demo\10、修复&amp;特效</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\6.1、GeomGrayStretch.c">
+      <Filter>Demo\6图像几何变换</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\xgmm.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\xgmm_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\6.2、GeomGrayStretchL2.c">
+      <Filter>Demo\6图像几何变换</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\6.3、GeomGrayRotateWauto.c">
+      <Filter>Demo\6图像几何变换</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\6.4、GeomGrayRotateWconst.c">
+      <Filter>Demo\6图像几何变换</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.1、FreqGrayFFTAndIFFT.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.2、FreqGrayGaussHFilter.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\6.5、GeomGrayLinerPolarAndInverse.c">
+      <Filter>Demo\6图像几何变换</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\6.6、GeomGrayLogPolarAndInverse.c">
+      <Filter>Demo\6图像几何变换</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.3、FreqGrayGaussLFilter.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.4、FreqGrayButtterWorthHFilter.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.5、FreqGrayButterWorthLFilter.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.6、FreqGrayBandPassFilter.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.7、FreqGrayBandStopFilter.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.9、FreqGrayHarrDWTAndIDWT.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.11、SpaceGrayCustomKernelFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.10、FreqGrayHarrHardThreshold.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\6.7、GeomGrayPerspective.c">
+      <Filter>Demo\6图像几何变换</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\1.3、ImageFormChange.c">
+      <Filter>Demo\1基础图像操作</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\3.2、HistGrayLocalHistEq.c">
+      <Filter>Demo\3图像直方图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-1.1、BinaryGraySingleThresh.c">
+      <Filter>Demo\7图像分割\7-1二值化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-1.2、BinaryGrayDoubleThresh.c">
+      <Filter>Demo\7图像分割\7-1二值化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-1.3、BinaryGrayHistThresh.c">
+      <Filter>Demo\7图像分割\7-1二值化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-1.4、BinaryGrayIntegralThresh.c">
+      <Filter>Demo\7图像分割\7-1二值化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-1.5、BinaryRGBDoubleThresh.c">
+      <Filter>Demo\7图像分割\7-1二值化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-1.6、BinaryLABDoubleThresh.c">
+      <Filter>Demo\7图像分割\7-1二值化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-2.1、EdgeGraySobel.c">
+      <Filter>Demo\7图像分割\7-2边缘检测</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-2.2、EdgeGrayLog.c">
+      <Filter>Demo\7图像分割\7-2边缘检测</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-2.3、EdgeGrayLaplace.c">
+      <Filter>Demo\7图像分割\7-2边缘检测</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-2.4、EdgeGrayCanny.c">
+      <Filter>Demo\7图像分割\7-2边缘检测</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-2.5、EdgeGraySobelConnect.c">
+      <Filter>Demo\7图像分割\7-2边缘检测</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.1、RegionGrayGrowing.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.9、SpaceGraySurfaceBlurFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\IOFILE\YMCV_ImageEncode.c">
+      <Filter>YMCV\IOFILE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\IOFILE\YMCV_ImageDecode.c">
+      <Filter>YMCV\IOFILE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\5.8、FreqGrayDCTAndIDCT.c">
+      <Filter>Demo\5图像频域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\Code\jpeg.c">
+      <Filter>YMCV\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\10.2、BadImageColor.c">
+      <Filter>Demo\10、修复&amp;特效</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.2、RegionGraySplitandAndMerge.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-1.7、BinaryLogicCal.c">
+      <Filter>Demo\7图像分割\7-1二值化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.3、RegionGrayKmeansSegment.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.5、RegionGrayDistanceTransform.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.6、RegionGrayTriMap.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.7、RegionGrayWatershed.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.8、RegionGraySnake.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.9、RegionGrayGrabCut.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.4、RegionGrayGMMSegment.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.5、KmeansTest.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.6、GMM_Test.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.1、FFT1d_Test.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.2、DCT1d_Test.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.3、DWT1d_Test.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.4、FMat_Test.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\1.4、ImageAreaFill.c">
+      <Filter>Demo\1基础图像操作</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\1.5、ImageSeedFill.c">
+      <Filter>Demo\1基础图像操作</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.1、ImageColorBoxFind.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.3、BinaryAreaSave.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.2、ImageColorBolosFind.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.4、BinaryWormFindLine.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.5、ImageEDFindEdge.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\tuxin_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.8、LineSegmentsMerge.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.6、ImageEDFindShape.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.7、ImageEDFindLines.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.8、ImageGrayHogFind.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\4.12、SpaceBinaryMorpRateFilter.c">
+      <Filter>Demo\4图像空域渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.10、BinaryLinerRegressCal.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\xunxian00_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\xunxian01_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\xunxian02_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.11、BinaryBoneThinAndCut.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\gujia_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.12、BinaryEdgeTrance.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.13、ImageFeatureMap.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.14、GrayFeaturePointGet.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.15、GrayFeatureDescribeGet.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.1、ImageGraySSIMCal.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.2、ImageGrayTemplate.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.3、ImageGrayFaceCascade.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\luojiuchuan_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-1.8、BinaryMaskCal.c">
+      <Filter>Demo\7图像分割\7-1二值化</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.9、ImageGrayFaceLbpDesc.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\luojiuchuan_112x112_Gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\7-3.10、RegionBinaryXY_AxisProjSeg.c">
+      <Filter>Demo\7图像分割\7-3区域分割</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\number0_9_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.5、ImageBinaryNumberDecisonTree.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.4、ImageGrayLBPClassify.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.7、DecisionTree_Test.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\house_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\linglong00b_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.6、ImageGrayPhaseCorrelate.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.7、ImageFeatureDescribeMatch.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\10.4、ImageFishEye.c">
+      <Filter>Demo\10、修复&amp;特效</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\wangge_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.8、ImageGrayMeanShift.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\3.6、HistBackProject.c">
+      <Filter>Demo\3图像直方图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.16、BinaryHoughGet.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.17、GrayRandonGet.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\ctcut00_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\10.5、ImageCartoon.c">
+      <Filter>Demo\10、修复&amp;特效</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\13.1、Scoring_System.c">
+      <Filter>Demo\13、其他项目应用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\answer1_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\answerTmp_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\10.6、ImageRigidDeformation.c">
+      <Filter>Demo\10、修复&amp;特效</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\huochairen_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\tablerecg_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\13.2、Table_Recognize.c">
+      <Filter>Demo\13、其他项目应用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\11.9、DelauneyTriangle.c">
+      <Filter>Demo\11、数据处理&amp;机器学习</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.9、ParticleFilterTracking.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageSource\sleft_sright_gray.c">
+      <Filter>ImageSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\8.18、GrayStereoLM.c">
+      <Filter>Demo\8图像特征提取</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\10.3、GrayInPainting.c">
+      <Filter>Demo\10、修复&amp;特效</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\13.3、Calibrating_Data.c">
+      <Filter>Demo\13、其他项目应用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\1.6、ImageRead.c">
+      <Filter>Demo\1基础图像操作</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\Code\tjpgd.c">
+      <Filter>YMCV\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\Code\bmp.h">
+      <Filter>YMCV\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\Code\gifdec.c">
+      <Filter>YMCV\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YMCV\Code\avilib.c">
+      <Filter>YMCV\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\13.4、FacePoint_Train.c">
+      <Filter>Demo\13、其他项目应用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\9.10、ImageGrayFacePointDect.c">
+      <Filter>Demo\9图像目标匹配</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\12.1、AprilTagDecode.c">
+      <Filter>Demo\12、条码&amp;二维码识别</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\12.2、DataMatrixDecode.c">
+      <Filter>Demo\12、条码&amp;二维码识别</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\12.3、QRDecode.c">
+      <Filter>Demo\12、条码&amp;二维码识别</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\12.4、BarDecode.c">
+      <Filter>Demo\12、条码&amp;二维码识别</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Demo\12.5、QR_Encode.c">
+      <Filter>Demo\12、条码&amp;二维码识别</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

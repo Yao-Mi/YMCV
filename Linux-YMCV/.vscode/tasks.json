@@ -1,0 +1,46 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc 生成活动文件",//调试器label名称
+            "command": "/usr/bin/gcc", //gcc
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",//当前文件，用于选择Demo
+                //其他要编译的文件
+                "${fileDirname}/../SDL_LCD/*.c",
+                "${fileDirname}/../ImageSource/*.c",
+                "${fileDirname}/../YMCV/CONFIG/*.c",
+                "${fileDirname}/../YMCV/DEBUG/*.c",
+                "${fileDirname}/../YMCV/OPOBJ/*.c",
+                "${fileDirname}/../YMCV/Code/*.c",
+                "${fileDirname}/../YMCV/IOFILE/*.c",
+                "-L",
+                "${workspaceFolder}/YMCV/CORE", //链接库目录
+                //SDL静态库
+                "-lSDL2",
+                "-lSDL2_ttf",
+                "-lSDL2main",
+                //线程库
+                "-pthread",
+                //数学库
+                "-lm",
+                //ymcv视觉库
+                "-lymcv-ubuntu20",
+                "-o",
+                //输出目录
+                "${workspaceFolder}/out/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}

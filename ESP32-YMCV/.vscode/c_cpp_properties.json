@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF",
+            "compilerPath": "/home/embedded/.espressif-4/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${config:idf.espIdfPath}/components/**",
+                "${config:idf.espIdfPathWin}/components/**",
+                "${config:idf.espAdfPath}/components/**",
+                "${config:idf.espAdfPathWin}/components/**",
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/components/LED",
+                "${workspaceFolder}/components/LCD",
+                "${workspaceFolder}/components/CONFIG",
+                "${workspaceFolder}/components/ImageSource",
+                "${workspaceFolder}/components/YMCV",
+                "${workspaceFolder}/components/Demo"
+            ],
+            "browse": {
+                "path": [
+                    "${config:idf.espIdfPath}/components",
+                    "${config:idf.espIdfPathWin}/components",
+                    "${config:idf.espAdfPath}/components/**",
+                    "${config:idf.espAdfPathWin}/components/**",
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/components/LED",
+                    "${workspaceFolder}/components/LCD",
+                    "${workspaceFolder}/components/CONFIG",
+                    "${workspaceFolder}/components/ImageSource",
+                    "${workspaceFolder}/components/YMCV",
+                    "${workspaceFolder}/components/Demo"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}

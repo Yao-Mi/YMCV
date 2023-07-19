@@ -1,0 +1,44 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.flashType": "UART",
+  "idf.port": "/dev/ttyUSB0",
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "inttypes.h": "c",
+    "esp_flash.h": "c",
+    "task.h": "c",
+    "gpio.h": "c",
+    "led.h": "c",
+    "lcd.h": "c",
+    "lcd_cfg.h": "c",
+    "malloc.h": "c",
+    "imagesource.h": "c",
+    "ymcv.h": "c",
+    "*.txt": "c",
+    "gpio_hal.h": "c",
+    "esp_mac.h": "c",
+    "esp_efuse_table.h": "c",
+    "read_esp32_mac.h": "c",
+    "esp_efuse.h": "c",
+    "esp_rom_efuse.h": "c",
+    "cache.h": "c",
+    "random": "c",
+    "gpio_reg.h": "c",
+    "gpio_fast.h": "c",
+    "stdint.h": "c",
+    "*.inc": "c",
+    "sdkconfig.h": "c",
+    "esp_heap_caps.h": "c"
+  },
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32.cfg"
+  ],
+  //我添加的代码，启用格式说明
+  "[c]": {
+    "editor.formatOnSave": false
+  },
+  "[cpp]": {
+    "editor.formatOnSave": false
+  }
+}

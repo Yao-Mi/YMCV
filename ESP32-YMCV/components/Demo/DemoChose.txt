@@ -1,0 +1,398 @@
+#if DemoChose == 0
+#include "../Demo/0--LCD_Test.c"
+
+#elif DemoChose == 1
+#include "../Demo/1.1--ImageShowTest.c"
+
+#elif DemoChose == 2
+#include "../Demo/1.2--ImageCopyTest.c"
+
+#elif DemoChose == 3
+#include "../Demo/1.3--ImageFormChange.c"
+
+#elif DemoChose == 4
+#include "../Demo/1.4--ImageAreaFill.c"
+
+#elif DemoChose == 5
+#include "../Demo/1.5--ImageSeedFill.c"
+
+#elif DemoChose == 6
+#include "../Demo/1.6--ImageRead.c" 
+
+#elif DemoChose == 7
+#include "../Demo/2.1--ChannelGray2binTest.c"
+
+#elif DemoChose == 8
+#include "../Demo/2.2--ChannelGrayExposeAndColorTo.c"
+
+#elif DemoChose == 9
+#include "../Demo/2.3--ChannelGrayInversAndBright.c"
+
+#elif DemoChose == 10
+#include "../Demo/2.4--ChannelGrayContractAndLiner.c"
+
+#elif DemoChose == 11
+#include "../Demo/2.5--ChannelGrayLogAndExp.c"
+
+#elif DemoChose == 12
+#include "../Demo/2.6--ChannelGrayGamaAndScurve.c"
+
+#elif DemoChose == 13
+#include "../Demo/2.7--ChannelGrayCstomAndHeatPalette.c"
+
+#elif DemoChose == 14
+#include "../Demo/2.8--ChannelRgb2binTest.c"
+
+#elif DemoChose == 15
+#include "../Demo/2.9--ChannelRgbExposeAndColor.c"
+
+#elif DemoChose == 16
+#include "../Demo/2.10--ChannelRgbInversAndBright.c"
+
+#elif DemoChose == 17
+#include "../Demo/2.11--ChannelRgbContractAndLiner.c"
+
+#elif DemoChose == 18
+#include "../Demo/2.12--ChannelRgbLogAndExp.c"
+
+#elif DemoChose == 19
+#include "../Demo/2.13--ChannelRgbGamaAndScurve.c"
+
+#elif DemoChose == 20
+#include "../Demo/2.14--ChannelRgbCstom.c"
+
+#elif DemoChose == 21
+#include "../Demo/2.15--ChannelRgbInversAndBright_1Param.c"
+
+#elif DemoChose == 22
+#include "../Demo/2.16--ChannelRgbContractAndLiner_1Param.c"
+
+#elif DemoChose == 23
+#include "../Demo/2.17--ChannelRgbLogAndExp_1Param.c"
+
+#elif DemoChose == 24
+#include "../Demo/2.18--ChannelRgbGamaAndScurve_1Param.c"
+
+#elif DemoChose == 25
+#include "../Demo/3.1--HistGrayHistEq.c"
+
+#elif DemoChose == 26
+#include "../Demo/3.2--HistGrayLocalHistEq.c"
+
+#elif DemoChose == 27
+#include "../Demo/3.3--HistGrayHistMapTo.c"
+
+#elif DemoChose == 28
+#include "../Demo/3.4--HistRgbHistEq.c"
+
+#elif DemoChose == 29
+#include "../Demo/3.5--HistRgbHistMapTo.c"
+
+#elif DemoChose == 30
+#include "../Demo/3.6--HistBackProject.c"
+
+#elif DemoChose == 31
+#include "../Demo/4.1--SpaceGrayGaussFilter.c"
+
+#elif DemoChose == 32
+#include "../Demo/4.2--SpaceGrayLogFilter.c"
+
+#elif DemoChose == 33
+#include "../Demo/4.3--SpaceGrayBilateralFilter.c"
+
+#elif DemoChose == 34
+#include "../Demo/4.4--SpaceGrayLocalMSEFilter.c"
+
+#elif DemoChose == 35
+#include "../Demo/4.5--SpaceGrayAverAndMedFilter.c"
+
+#elif DemoChose == 36
+#include "../Demo/4.6--SpaceGrayMinAndMaxFilter.c"
+
+#elif DemoChose == 37
+#include "../Demo/4.7--SpaceGrayModeAndMidPointFilter.c"
+
+#elif DemoChose == 38
+#include "../Demo/4.8--SpaceGrayMeanShiftFilter.c"
+
+#elif DemoChose == 39
+#include "../Demo/4.9--SpaceGraySurfaceBlurFilter.c"
+
+#elif DemoChose == 40
+#include "../Demo/4.10--SpaceGrayGuideFilter.c"
+
+#elif DemoChose == 41
+#include "../Demo/4.11--SpaceGrayCustomKernelFilter.c"
+
+#elif DemoChose == 42
+#include "../Demo/4.12--SpaceBinaryMorpRateFilter.c"
+
+#elif DemoChose == 43
+#include "../Demo/5.1--FreqGrayFFTAndIFFT.c"
+
+#elif DemoChose == 44
+#include "../Demo/5.2--FreqGrayGaussHFilter.c"
+
+#elif DemoChose == 45
+#include "../Demo/5.3--FreqGrayGaussLFilter.c"
+
+#elif DemoChose == 46
+#include "../Demo/5.4--FreqGrayButtterWorthHFilter.c"
+
+#elif DemoChose == 47
+#include "../Demo/5.5--FreqGrayButterWorthLFilter.c"
+
+#elif DemoChose == 48
+#include "../Demo/5.6--FreqGrayBandPassFilter.c"
+
+#elif DemoChose == 49
+#include "../Demo/5.7--FreqGrayBandStopFilter.c"
+
+#elif DemoChose == 50
+#include "../Demo/5.8--FreqGrayDCTAndIDCT.c"
+
+#elif DemoChose == 51
+#include "../Demo/5.9--FreqGrayHarrDWTAndIDWT.c"
+
+#elif DemoChose == 52
+#include "../Demo/5.10--FreqGrayHarrHardThreshold.c"
+
+#elif DemoChose == 53
+#include "../Demo/6.1--GeomGrayStretch.c"
+
+#elif DemoChose == 54
+#include "../Demo/6.2--GeomGrayStretchL2.c"
+
+#elif DemoChose == 55
+#include "../Demo/6.3--GeomGrayRotateWauto.c"
+
+#elif DemoChose == 56
+#include "../Demo/6.4--GeomGrayRotateWconst.c"
+
+#elif DemoChose == 57
+#include "../Demo/6.5--GeomGrayLinerPolarAndInverse.c"
+
+#elif DemoChose == 58
+#include "../Demo/6.6--GeomGrayLogPolarAndInverse.c"
+
+#elif DemoChose == 59
+#include "../Demo/6.7--GeomGrayPerspective.c"
+
+#elif DemoChose == 60
+#include "../Demo/7-1.1--BinaryGraySingleThresh.c"
+
+#elif DemoChose == 61
+#include "../Demo/7-1.2--BinaryGrayDoubleThresh.c"
+
+#elif DemoChose == 62
+#include "../Demo/7-1.3--BinaryGrayHistThresh.c"
+
+#elif DemoChose == 63
+#include "../Demo/7-1.4--BinaryGrayIntegralThresh.c"
+
+#elif DemoChose == 64
+#include "../Demo/7-1.5--BinaryRGBDoubleThresh.c"
+
+#elif DemoChose == 65
+#include "../Demo/7-1.6--BinaryLABDoubleThresh.c"
+
+#elif DemoChose == 66
+#include "../Demo/7-1.7--BinaryLogicCal.c"
+
+#elif DemoChose == 67
+#include "../Demo/7-1.8--BinaryMaskCal.c"
+
+#elif DemoChose == 68
+#include "../Demo/7-2.1--EdgeGraySobel.c"
+
+#elif DemoChose == 69
+#include "../Demo/7-2.2--EdgeGrayLog.c"
+
+#elif DemoChose == 70
+#include "../Demo/7-2.3--EdgeGrayLaplace.c"
+
+#elif DemoChose == 71
+#include "../Demo/7-2.4--EdgeGrayCanny.c"
+
+#elif DemoChose == 72
+#include "../Demo/7-2.5--EdgeGraySobelConnect.c"
+
+#elif DemoChose == 73
+#include "../Demo/7-3.1--RegionGrayGrowing.c"
+
+#elif DemoChose == 74
+#include "../Demo/7-3.2--RegionGraySplitandAndMerge.c"
+
+#elif DemoChose == 75
+#include "../Demo/7-3.3--RegionGrayKmeansSegment.c"
+
+#elif DemoChose == 76
+#include "../Demo/7-3.4--RegionGrayGMMSegment.c"
+
+#elif DemoChose == 77
+#include "../Demo/7-3.5--RegionGrayDistanceTransform.c"
+
+#elif DemoChose == 78
+#include "../Demo/7-3.6--RegionGrayTriMap.c"
+
+#elif DemoChose == 79
+#include "../Demo/7-3.7--RegionGrayWatershed.c"
+
+#elif DemoChose == 80
+#include "../Demo/7-3.8--RegionGraySnake.c"
+
+#elif DemoChose == 81
+#include "../Demo/7-3.9--RegionGrayGrabCut.c"
+
+#elif DemoChose == 82
+#include "../Demo/7-3.10--RegionBinaryXY_AxisProjSeg.c"
+
+#elif DemoChose == 83
+#include "../Demo/8.1--ImageColorBoxFind.c"
+
+#elif DemoChose == 84
+#include "../Demo/8.2--ImageColorBolosFind.c"
+
+#elif DemoChose == 85
+#include "../Demo/8.3--BinaryAreaSave.c"
+
+#elif DemoChose == 86
+#include "../Demo/8.4--BinaryWormFindLine.c"
+
+#elif DemoChose == 87
+#include "../Demo/8.5--ImageEDFindEdge.c"
+
+#elif DemoChose == 88
+#include "../Demo/8.6--ImageEDFindShape.c"
+
+#elif DemoChose == 89
+#include "../Demo/8.7--ImageEDFindLines.c"
+
+#elif DemoChose == 90
+#include "../Demo/8.8--ImageGrayHogFind.c"
+
+#elif DemoChose == 91
+#include "../Demo/8.9--ImageGrayFaceLbpDesc.c"
+
+#elif DemoChose == 92
+#include "../Demo/8.10--BinaryLinerRegressCal.c"
+
+#elif DemoChose == 93
+#include "../Demo/8.11--BinaryBoneThinAndCut.c"
+
+#elif DemoChose == 94
+#include "../Demo/8.12--BinaryEdgeTrance.c"
+
+#elif DemoChose == 95
+#include "../Demo/8.13--ImageFeatureMap.c"
+
+#elif DemoChose == 96
+#include "../Demo/8.14--GrayFeaturePointGet.c"
+
+#elif DemoChose == 97
+#include "../Demo/8.15--GrayFeatureDescribeGet.c"
+
+#elif DemoChose == 98
+#include "../Demo/8.16--BinaryHoughGet.c"
+
+#elif DemoChose == 99
+#include "../Demo/8.17--GrayRandonGet.c"
+
+#elif DemoChose == 100
+#include "../Demo/8.18--GrayStereoLM.c"
+
+#elif DemoChose == 101
+#include "../Demo/9.1--ImageGraySSIMCal.c"
+
+#elif DemoChose == 102
+#include "../Demo/9.2--ImageGrayTemplate.c"
+
+#elif DemoChose == 103
+#include "../Demo/9.3--ImageGrayFaceCascade.c"
+
+#elif DemoChose == 104
+#include "../Demo/9.4--ImageGrayLBPClassify.c"
+
+#elif DemoChose == 105
+#include "../Demo/9.5--ImageBinaryNumberDecisonTree.c"
+
+#elif DemoChose == 106
+#include "../Demo/9.6--ImageGrayPhaseCorrelate.c"
+
+#elif DemoChose == 107
+#include "../Demo/9.7--ImageFeatureDescribeMatch.c"
+
+#elif DemoChose == 108
+#include "../Demo/9.8--ImageGrayMeanShift.c"
+
+#elif DemoChose == 109
+#include "../Demo/9.9--ParticleFilterTracking.c"
+
+#elif DemoChose == 110
+#include "../Demo/9.10--ImageGrayFacePointDect.c"
+
+#elif DemoChose == 111
+#include "../Demo/10.1--GrayRemovalFog.c"
+
+#elif DemoChose == 112
+#include "../Demo/10.2--BadImageColor.c"
+
+#elif DemoChose == 113
+#include "../Demo/10.3--GrayInPainting.c"
+
+#elif DemoChose == 114
+#include "../Demo/10.4--ImageFishEye.c"
+
+#elif DemoChose == 115
+#include "../Demo/10.5--ImageCartoon.c"
+
+#elif DemoChose == 116
+#include "../Demo/10.6--ImageRigidDeformation.c"
+
+#elif DemoChose == 117
+#include "../Demo/11.1--FFT1d_Test.c"
+
+#elif DemoChose == 118
+#include "../Demo/11.2--DCT1d_Test.c"
+
+#elif DemoChose == 119
+#include "../Demo/11.3--DWT1d_Test.c"
+
+#elif DemoChose == 120
+#include "../Demo/11.4--FMat_Test.c"
+
+#elif DemoChose == 121
+#include "../Demo/11.5--KmeansTest.c"
+
+#elif DemoChose == 122
+#include "../Demo/11.6--GMM_Test.c"
+
+#elif DemoChose == 123
+#include "../Demo/11.7--DecisionTree_Test.c"
+
+#elif DemoChose == 124
+#include "../Demo/11.8--LineSegmentsMerge.c"
+
+#elif DemoChose == 125
+#include "../Demo/11.9--DelauneyTriangle.c"
+
+#elif DemoChose == 126
+#include "../Demo/12.1--AprilTagDecode.c"
+
+#elif DemoChose == 127
+#include "../Demo/12.2--DataMatrixDecode.c"
+
+#elif DemoChose == 128
+#include "../Demo/12.3--QRDecode.c"
+
+#elif DemoChose == 129
+#include "../Demo/12.4--BarDecode.c"
+
+#elif DemoChose == 130
+#include "../Demo/12.5--QR_Encode.c"
+
+#else
+#error 没有相应的Demo
+
+#endif
+
