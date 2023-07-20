@@ -70,11 +70,24 @@ void LCD_WR_DATA8(uint8_t dat)
 ******************************************************************************/
 void LCD_WR_DATA(uint16_t dat)
 {
-	LCD_DC_Set(); // 写数据
-	LCD_Writ_Bus(dat >> 8);
-	LCD_Writ_Bus(dat);
+	//LCD_DC_Set(); // 写数据
+	// LCD_Writ_Bus(dat >> 8);
+	// LCD_Writ_Bus(dat);
+	uint8_t dbuf[2] = {0};
+	dbuf[0] = dat >> 8;
+	dbuf[1] = dat;
+	LCD_WR_Data_Buff(dbuf,2);
 }
 
+void LCD_WR_DATA2(uint16_t dat1,uint16_t dat2)
+{
+	uint8_t dbuf[4] = {0};
+	dbuf[0] = dat1 >> 8;
+	dbuf[1] = dat1;
+	dbuf[2] = dat2 >> 8;
+	dbuf[3] = dat2;
+	LCD_WR_Data_Buff(dbuf,4);
+}
 /******************************************************************************
 	  函数说明：设置起始和结束地址
 	  入口数据：x1,x2 设置列的起始和结束地址
@@ -86,41 +99,49 @@ void LCD_Address_Set(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2)
 	if (USE_HORIZONTAL == 0)
 	{
 		LCD_WR_REG(0x2a); // 列地址设置
-		LCD_WR_DATA(x1);
-		LCD_WR_DATA(x2);
+		// LCD_WR_DATA(x1);
+		// LCD_WR_DATA(x2);
+		LCD_WR_DATA2(x1,x2);
 		LCD_WR_REG(0x2b); // 行地址设置
-		LCD_WR_DATA(y1);
-		LCD_WR_DATA(y2);
+		// LCD_WR_DATA(y1);
+		// LCD_WR_DATA(y2);
+		LCD_WR_DATA2(y1,y2);
 		LCD_WR_REG(0x2c); // 储存器写
 	}
 	else if (USE_HORIZONTAL == 1)
 	{
 		LCD_WR_REG(0x2a); // 列地址设置
-		LCD_WR_DATA(x1);
-		LCD_WR_DATA(x2);
+		// LCD_WR_DATA(x1);
+		// LCD_WR_DATA(x2);
+		LCD_WR_DATA2(x1,x2);
 		LCD_WR_REG(0x2b); // 行地址设置
-		LCD_WR_DATA(y1 + 80);
-		LCD_WR_DATA(y2 + 80);
+		// LCD_WR_DATA(y1 + 80);
+		// LCD_WR_DATA(y2 + 80);
+		LCD_WR_DATA2(y1 + 80,y2 + 80);
 		LCD_WR_REG(0x2c); // 储存器写
 	}
 	else if (USE_HORIZONTAL == 2)
 	{
 		LCD_WR_REG(0x2a); // 列地址设置
-		LCD_WR_DATA(x1);
-		LCD_WR_DATA(x2);
+		// LCD_WR_DATA(x1);
+		// LCD_WR_DATA(x2);
+		LCD_WR_DATA2(x1,x2);
 		LCD_WR_REG(0x2b); // 行地址设置
-		LCD_WR_DATA(y1);
-		LCD_WR_DATA(y2);
+		// LCD_WR_DATA(y1);
+		// LCD_WR_DATA(y2);
+		LCD_WR_DATA2(y1,y2);
 		LCD_WR_REG(0x2c); // 储存器写
 	}
 	else
 	{
 		LCD_WR_REG(0x2a); // 列地址设置
-		LCD_WR_DATA(x1 + 80);
-		LCD_WR_DATA(x2 + 80);
+		// LCD_WR_DATA(x1 + 80);
+		// LCD_WR_DATA(x2 + 80);
+		LCD_WR_DATA2(x1 + 80,x2 + 80);
 		LCD_WR_REG(0x2b); // 行地址设置
-		LCD_WR_DATA(y1);
-		LCD_WR_DATA(y2);
+		// LCD_WR_DATA(y1);
+		// LCD_WR_DATA(y2);
+		LCD_WR_DATA2(y1,y2);
 		LCD_WR_REG(0x2c); // 储存器写
 	}
 }
